@@ -1,10 +1,9 @@
-This repository is for learning DSA for interview preparation.
-Follow daily problem list 
+#This repo is for Learning **DSA** from scratch in 3 Months
 
 
-## DAY 1
+##**DAY 1**
 
-| #  | Problem                              | Practice |
+| #  | **Problem**                              | **Practice** |
 |----|--------------------------------------|----------|
 | 1  | Largest Element in an Array          | [GFG](https://www.geeksforgeeks.org/largest-element-in-an-array/) |
 | 2  | Second Largest Element               | [GFG](https://www.geeksforgeeks.org/find-second-largest-element-array/) |
