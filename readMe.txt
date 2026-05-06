@@ -1,51 +1,21 @@
-Here are some of the coding questions I worked on, in the pursuit of learning different data structures and algorithms. 
-This repository will contain codes written in different languages based on the problem statement.
-
-=================================================================================================================
+This repository is for learning DSA for interview preparation.
+Follow daily problem list 
 
 
-Problem 1: Rotate array clockwise by one position
-Problem 2: Count Pairs with given sum in a array
-Problem 3: Check if an array is a subset of other array
+## DAY 1
 
-==================================================================================================================
-
-
-Problem 1: Rearrange elements in array by sign alternatively in order.
-Problem 2: Rearrange elements in array by sign, equal number of even and odd.
-Problem 3: Stack using Array
-Problem 4: Queue using Array
-
-==================================================================================================================
-
-
-Problem 1: Re arrange elements and Maximum the sum in the array 
-Problem 2: Remove duplicate characters in a array
-Problem 3: Merge two strings alternatively starting with string 1
-Problem 4: Reverse vowels in String
-
-==================================================================================================================
+| #  | Problem                                  | Practice Link                                                                 |
+|----|------------------------------------------|------------------------------------------------------------------------------|
+| 1  | Largest Element in an Array              | [GFG](https://www.geeksforgeeks.org/largest-element-in-an-array/)            |
+| 2  | Second Largest Element in an Array       | [GFG](https://www.geeksforgeeks.org/find-second-largest-element-array/)      |
+| 3  | Check if Array is Sorted                | [LeetCode](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) |
+| 4  | Remove Duplicates from Sorted Array     | [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) |
+| 5  | Left Rotate an Array by One Place       | [GFG](https://www.geeksforgeeks.org/array-rotation/)                         |
+| 6  | Left Rotate an Array by D Places        | [LeetCode](https://leetcode.com/problems/rotate-array/)                      |
+| 7  | Move Zeros to End                      | [LeetCode](https://leetcode.com/problems/move-zeroes/)                       |
+| 8  | Linear Search                          | [GFG](https://www.geeksforgeeks.org/linear-search/)                          |
+| 9  | Find the Union of Two Sorted Arrays     | [GFG](https://www.geeksforgeeks.org/union-of-two-sorted-arrays/)             |
+| 10 | Find Missing Number in an Array         | [LeetCode](https://leetcode.com/problems/missing-number/)                    |
 
 
-Problem 1: Kids With Maximum Candies
-Problem 2: Can Place Flowers alternatively
-
-==================================================================================================================
-
-Problem 1: Is string 1 subsequence of string 2(isSubsequence)
-Problem 2: Reverse words in a string
-
-==================================================================================================================
-
-MISSING OR DUPLICATE NUMBER IN ARRAY PATTERN
-
-| Problem                                 | Key Constraints                                                                     | Pattern Name / Technique                      | How It Works                                                                                                                | Notes                                               |
-| --------------------------------------- | ----------------------------------------------------------------------------------- | --------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
-| **Set Mismatch**                        | Numbers 1…n, one duplicate, one missing; O(1) space; can modify array               | **Negative Marking / Index as Hash**          | Mark seen numbers by negating value at index `num-1`. Duplicate detected if already negative; missing = index with positive | Array is modified                                   |
-| **Find All Disappeared Numbers**        | Numbers 1…n, possibly missing numbers; O(1) space; can modify array                 | **Negative Marking / Index as Hash**          | Negate values at indices for presence. Scan for positives → missing numbers                                                 | Works for multiple missing                          |
-| **Find the Duplicate Number (LC 287)**  | Numbers 1…n, array size n+1, exactly one duplicate; cannot modify array; O(1) space | **Floyd’s Tortoise & Hare / Cycle Detection** | Treat nums as pointers → detect cycle → start of cycle = duplicate                                                          | Works even if duplicate occurs multiple times       |
-| **First Missing Positive (LC 41)**      | Unsorted array, positive integers; O(1) space; can modify array                     | **Cyclic Sort / Index-as-Hash**               | Place number `x` at index `x-1` if in range 1..n. Scan for first mismatch → missing positive                                | Handles negatives, numbers > n                      |
-| **Find Duplicate Number (XOR version)** | Numbers 1…n, exactly one duplicate appearing twice; cannot modify array; O(1) space | **XOR Trick**                                 | XOR all array elements with numbers 1..n → duplicate remains                                                                | Only works for exactly one duplicate, appears twice |
-
-
-
+---
