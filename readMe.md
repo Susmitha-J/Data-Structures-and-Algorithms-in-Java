@@ -1,7 +1,7 @@
-#This repo is for Learning **DSA** from scratch in 3 Months
+#This repo is for Learning **DSA** from scratch in 3 Months#
 
 
-##**DAY 1**
+##**DAY 1** ##
 
 | #  | **Problem**                              | **Practice** |
 |----|--------------------------------------|----------|
