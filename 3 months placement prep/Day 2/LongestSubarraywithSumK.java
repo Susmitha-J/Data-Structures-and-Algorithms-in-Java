@@ -6,13 +6,16 @@ class Solution {
         int max = 0, n = arr.length, sum = 0;
         HashMap<Integer, Integer> map = new HashMap<>();
         // using prefix sum and hashmap
+
         for(int i=0;i<n;i++) {
-           
+
+            //sum from start to i;
             sum += arr[i];
+
             
-            if(sum == k) max = Math.max( max, i+1); 
+            if(sum == k) max = Math.max( max, i+1);  // sum of all elements from start to i is k, so length is i+1
             else if (map.containsKey(sum - k)) {
-                max = Math.max(max, i - map.get(sum-k));
+                max = Math.max(max, i - map.get(sum-k)); //sum of i+1, j is k so check if sum-k is present in map, if yes then length is i - index of sum-k
             }
             
             if(!map.containsKey(sum)) map.put(sum, i);
